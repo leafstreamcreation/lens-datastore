@@ -1,0 +1,26 @@
+{
+  "name": "chunks-datastore",
+  "version": "1.0.0",
+  "description": "remote storage server for chunks pwa",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "dev": "node index.js"
+  },
+  "author": "Derek Noble",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "helmet": "^5.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^6.2.7",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
